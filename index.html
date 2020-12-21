@@ -1,0 +1,24 @@
+<html>
+<title>Simple Form</title>
+<head>
+   <meta charset="UTF-8">
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+<script src="submit.js"></script>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <form id="myForm" method="post">
+     Фамилия Имя Отчество:    <input name="name" id="name" type="text" /><br />
+     Email:   <input name="email" id="email" type="text" /><br />
+     Phone No:<input name="phone" id="phone" type="text" /><br />
+     Текст:  <input name="textT" id=textT type="text"><br/>
+	      
+
+    <input type="button" id="submitFormData" onclick="SubmitFormData();" value="Submit" />
+   </form>
+   Program log <br>
+   <textarea id="results">
+
+   </textarea>
+</body>
+</html>
